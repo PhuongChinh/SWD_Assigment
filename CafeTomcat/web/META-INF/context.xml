@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CafeTomcat">
+<Resource name="jdbc/MARIA_CAFE" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="-1"
+               username="sa" password="yurnero1" 
+               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+               url="jdbc:sqlserver://localhost:1433;databaseName=MARIA_CAFE"/>
+</Context>
